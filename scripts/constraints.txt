@@ -60,7 +60,7 @@ contextlib2==21.6.0
     # via
     #   idf-component-manager
     #   schema
-cryptography==3.4.7
+cryptography==44.0.1
     # via
     #   -c constraints.esp32.txt
     #   -r requirements.txt
@@ -73,7 +73,7 @@ distlib==0.3.2
     # via virtualenv
 docopt==0.6.2
     # via pykwalify
-ecdsa==0.17.0
+ecdsa==0.19.1
     # via -r requirements.esp32.txt
 fastcore==1.3.26
     # via ghapi
@@ -209,7 +209,7 @@ prettytable==2.5.0
     #   mbed-os-tools
 prompt-toolkit==3.0.26
     # via ipython
-protobuf==3.20.1
+protobuf==5.29.6
     # via
     #   -r requirements.txt
     #   mypy-protobuf
